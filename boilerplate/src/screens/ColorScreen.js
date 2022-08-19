@@ -17,9 +17,7 @@ const ColorScreen = () => {
         keyExtractor={item => item}
         data={colors}
         renderItem={({ item }) => {
-          return (
-            <View style={{ height: 100, width: 100, backgroundColor: item }} />
-          );
+          return <View style={{ height: 100, width: 100, backgroundColor: item }} />;
         }}
       />
     </View>
